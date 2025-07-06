@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HappySheep_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 34
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fe5a8dd42da2d4d844134f00b93f32
+      internalID: 260716694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 41
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3259ef894a65d341a3291b34fbf7f95
+      internalID: -1281845036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 41
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f1c7f529449e428f7fcb4960d447b
+      internalID: -964949060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 36
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431273d29ec837d40a718498e4ddfe57
+      internalID: 994943995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 37
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666f35223e1665249acb9ba9ae5b67ea
+      internalID: -441864022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 39
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08536a33426bce43a80f65627891598
+      internalID: 669014145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 36
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe062b5642a23cd4e8f2db1a1b50da30
+      internalID: 2091736544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappySheep_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 40
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530573f58f32d874d80eb46c6760183a
+      internalID: -1989546834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +294,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HappySheep_Idle_0: 260716694
+      HappySheep_Idle_1: -1281845036
+      HappySheep_Idle_10: -216743230
+      HappySheep_Idle_11: -1019289655
+      HappySheep_Idle_12: -106389629
+      HappySheep_Idle_13: 1839958562
+      HappySheep_Idle_14: 1518522924
+      HappySheep_Idle_15: 1857770250
+      HappySheep_Idle_16: -1573552255
+      HappySheep_Idle_17: -1343896613
+      HappySheep_Idle_18: -428103829
+      HappySheep_Idle_19: -1915972734
+      HappySheep_Idle_2: -964949060
+      HappySheep_Idle_20: -911336498
+      HappySheep_Idle_21: 290574631
+      HappySheep_Idle_22: -930572146
+      HappySheep_Idle_23: 338534549
+      HappySheep_Idle_24: -1062138610
+      HappySheep_Idle_25: -1728198004
+      HappySheep_Idle_26: -1684820092
+      HappySheep_Idle_27: -1054761512
+      HappySheep_Idle_28: -401629910
+      HappySheep_Idle_29: -64325589
+      HappySheep_Idle_3: 994943995
+      HappySheep_Idle_30: -1731546834
+      HappySheep_Idle_31: -1964216784
+      HappySheep_Idle_4: -441864022
+      HappySheep_Idle_5: 669014145
+      HappySheep_Idle_6: 2091736544
+      HappySheep_Idle_7: -1989546834
+      HappySheep_Idle_8: 825982702
+      HappySheep_Idle_9: -1651082035
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
