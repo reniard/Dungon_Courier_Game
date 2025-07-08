@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MiniMapToggle : MonoBehaviour
 {
-    public GameObject miniMapUI; // drag MiniMapView ke sini
+    public GameObject miniMapUI;
 
     private bool isVisible = true;
 

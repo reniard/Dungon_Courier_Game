@@ -7,9 +7,9 @@ public class HealthDisplay : MonoBehaviour
     public TextMeshProUGUI healthText;
 
     // Warna khusus
-    private Color hijauTua = new Color32(0x00, 0x64, 0x00, 0xFF);     // #006400
-    private Color kuningGelap = new Color32(0xB8, 0x86, 0x0B, 0xFF);  // #B8860B
-    private Color merahTua = new Color32(0x4B, 0x00, 0x00, 0xFF);     // #4B0000
+    private Color hijauTua = new Color32(0x00, 0x64, 0x00, 0xFF);
+    private Color kuningGelap = new Color32(0xB8, 0x86, 0x0B, 0xFF);
+    private Color merahTua = new Color32(0x4B, 0x00, 0x00, 0xFF);
 
     void Update()
     {
@@ -30,7 +30,7 @@ public class HealthDisplay : MonoBehaviour
             }
             else
             {
-                healthText.text = "DEAD";
+                healthText.text = "DEAD -> Restart Level";
                 healthText.color = merahTua;
             }
         }

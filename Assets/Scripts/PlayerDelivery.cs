@@ -14,8 +14,8 @@ public class PlayerDelivery : MonoBehaviour
     private DeliveryStatus currentStatus = DeliveryStatus.TidakDibawa;
 
     public TextMeshProUGUI statusText;
-    public GameObject finishPanel;         // Panel ucapan selamat
-    public GameObject backgroundOverlay;   // Overlay latar belakang gelap (jika ada)
+    public GameObject finishPanel;
+    public GameObject backgroundOverlay;
 
     private void Start()
     {
@@ -55,12 +55,12 @@ public class PlayerDelivery : MonoBehaviour
                 if (finishPanel != null)
                     finishPanel.SetActive(true);
 
-                Time.timeScale = 0f; // ⏸ Game langsung di-pause
+                Time.timeScale = 0f;
             }
 
             else
             {
-                // Pindah ke scene berikutnya (bukan Level3)
+                
                 Invoke("LoadNextScene", 1.5f);
             }
         }
@@ -76,7 +76,7 @@ public class PlayerDelivery : MonoBehaviour
                 statusText.text = "Status Barang : Tidak Dibawa. Cari Barang Sekarang!";
                 break;
             case DeliveryStatus.Dibawa:
-                statusText.text = "Status Barang : Dibawa. Antar Ke Tempat Tujuan!";
+                statusText.text = "Status Barang : Dibawa. Antar Segera Ke Castle!";
                 break;
             case DeliveryStatus.Terkirim:
                 statusText.text = "Status Barang : Terkirim! Bersiap ke level selanjutnya....";
@@ -109,7 +109,7 @@ public class PlayerDelivery : MonoBehaviour
         if (backgroundOverlay != null)
             backgroundOverlay.SetActive(false);
 
-        SceneManager.LoadScene("menulevel"); // Pindah ke scene menu level
+        SceneManager.LoadScene("menulevel");
     }
 
     public bool IsCarryingItem()
